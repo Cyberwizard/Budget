@@ -1,0 +1,20 @@
+bin/
+obj/
+packages/
+.vs/
+
+*.suo
+*.user
+
+_ReSharper*
+
+# Built Deployment Files #
+##########################
+src/Installer/*.exe
+src/Installer/adminweb/
+src/Installer/mbt/
+src/Installer/MessageStore/
+src/Installer/Output/
+
+TestResult.xml
+Thumbs.db
