@@ -19,6 +19,7 @@ export class HomeComponent {
 interface ICategory {
   name: string;
   amount: number;
+  balance: number;
 }
 
 interface ICategoryGroup {

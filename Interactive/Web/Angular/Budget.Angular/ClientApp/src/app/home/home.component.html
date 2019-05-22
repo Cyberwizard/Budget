@@ -11,11 +11,13 @@
   <div class="content-entry">
     <div class="row">
       <div class="col-lg-6"><strong>Category</strong></div>
-      <div class="col-lg-6"><strong>Amount</strong></div>
+      <div class="col-lg-3 text-right"><strong>Amount</strong></div>
+      <div class="col-lg-3 text-right"><strong>Balance</strong></div>
     </div>
     <div *ngFor="let category of categoryGroup.categories" class="row">
       <div class="col-lg-6">{{ category.name }}</div>
-      <div class="col-lg-6">{{ category.amount | currency }}</div>
+      <div class="col-lg-3 text-right">{{ category.amount | currency }}</div>
+      <div class="col-lg-3 text-right">{{ category.balance | currency }}</div>
     </div>
   </div>
 </div>

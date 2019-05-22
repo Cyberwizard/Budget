@@ -21,23 +21,23 @@ namespace Budget.Business.Queries.GetAllCategoryGroupsQuery {
 							Name = "Groceries",
 							Frequency = FrequencyType.MonthlyCumulative,
 							Amount = 500,
-							Balance = 150
+							Balance = 35.93M
 						},
 						new Category {
 							Id = 2,
 							CategoryGroupId = 1,
 							Name = "Eating Out",
 							Frequency = FrequencyType.MonthlyCumulative,
-							Amount = 500,
-							Balance = 150
+							Amount = 250,
+							Balance = 72
 						},
 						new Category {
 							Id = 3,
 							CategoryGroupId = 1,
 							Name = "Fuel",
 							Frequency = FrequencyType.MonthlyCumulative,
-							Amount = 500,
-							Balance = 150
+							Amount = 100,
+							Balance = 21.34M
 						},
 					}
 				},
@@ -50,24 +50,24 @@ namespace Budget.Business.Queries.GetAllCategoryGroupsQuery {
 							CategoryGroupId = 2,
 							Name = "Electricity",
 							Frequency = FrequencyType.MonthlySet,
-							Amount = 500,
-							Balance = 150
+							Amount = 543,
+							Balance = 23
 						},
 						new Category {
 							Id = 2,
 							CategoryGroupId = 2,
 							Name = "Water",
 							Frequency = FrequencyType.MonthlySet,
-							Amount = 500,
-							Balance = 150
+							Amount = 234,
+							Balance = 0
 						},
 						new Category {
 							Id = 3,
 							CategoryGroupId = 2,
 							Name = "Cable",
 							Frequency = FrequencyType.MonthlySet,
-							Amount = 500,
-							Balance = 150
+							Amount = 175,
+							Balance = 65
 						},
 					}
 				},
@@ -80,24 +80,24 @@ namespace Budget.Business.Queries.GetAllCategoryGroupsQuery {
 							CategoryGroupId = 3,
 							Name = "Life Insurance",
 							Frequency = FrequencyType.Yearly,
-							Amount = 500,
-							Balance = 150
+							Amount = 543,
+							Balance = 594.23M
 						},
 						new Category {
 							Id = 2,
 							CategoryGroupId = 3,
 							Name = "Amazon Prime",
 							Frequency = FrequencyType.Yearly,
-							Amount = 500,
-							Balance = 150
+							Amount = 34.54M,
+							Balance = 43
 						},
 						new Category {
 							Id = 3,
 							CategoryGroupId = 3,
 							Name = "Car Tags",
 							Frequency = FrequencyType.Yearly,
-							Amount = 500,
-							Balance = 150
+							Amount = 85.45M,
+							Balance = 86
 						},
 					}
 				}
